@@ -1,0 +1,248 @@
+
+body{
+
+
+margin: 0;
+padding: 0;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+}
+
+ul, #imagelist,li{
+
+	list-style:none;
+
+
+}
+#page1{
+
+	width:100%;
+	margin: 0 auto;
+	display: block;
+
+}
+
+
+#imagelist{
+
+
+max-width:618px;
+padding:0;
+    padding-left:10px;
+margin: 0 auto;
+
+}
+
+#logo{
+position:relative;
+width: 200px;
+height:140px;
+margin-bottom: 20px;
+left:20%;
+
+}
+
+#logo img{
+
+width: 100%;
+height:100%;
+
+}
+
+#controller{
+
+position:relative;
+
+width:35px;
+
+height:35px;
+
+
+top:-120px;
+left:70%;
+
+
+}
+
+
+
+#controller img{
+width: 100%;
+height:100%;
+}
+.tiles{
+ 	float:left;
+    width: 150px;
+    height: 150px;
+    margin-left:0px;
+    border: #fff 1px solid;
+
+}
+
+.tiles p{
+
+color:#fff;
+
+margin-top: 20px;
+
+margin-left: 10px;
+
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+font-weight:lighter;
+
+font-size: 12px;
+
+
+
+
+}
+
+#ads{
+
+
+width:608px;
+	margin: 0 auto;
+
+}
+
+#ads img{
+
+width: 100%;
+height:100%;
+
+}
+
+
+#page2{
+
+	width:100%;
+	padding:0;
+	position:relative;
+	top:15px;
+	display: block;
+	background-color:#ededec;
+	color:#ccc;
+
+}
+
+#form{
+	padding: 0;
+	width:608px;
+	margin: 0 auto;
+	margin-top: -20px;
+	background-color: #fff;
+	color: #4d4d4d;
+
+
+}
+
+#top{
+
+	height:60px;
+	width:608px;
+	padding:20px 40px;
+	padding-bottom: 0px;
+
+}
+
+#top h2{
+	float:left;
+}
+#done{
+	float:right;
+	background-color: #3ec5ea;
+	margin-right: 80px;
+	margin-top: 20px;
+	width:60px;
+	height:35px;
+	color:#fff;
+	font-size: 14px;
+	border: 1px solid #baeffd;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
+
+.text {
+	padding:10px 40px 10px 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#666;
+
+
+}
+
+
+#head{
+	height:54px;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 0px;
+	border: 1px solid #bdbdbc;
+	border-left: 0;
+	border-right: 0;
+
+}
+
+#tileList{
+
+width:550px;
+margin:0 auto;
+
+
+
+
+
+
+}
+.list{
+	height:50px;
+	width:550px;
+	border: 1px solid #bdbdbc;
+	border-left: 0;
+	border-right: 0;
+	cursor: default;
+
+}
+.check{
+	width:25px;
+	padding:5px;
+	background-image:url(../../images/icons/check.png);
+	background-position: 5px;
+	cursor: pointer;
+
+}
+
+.empty{
+	width:25px;
+	padding:5px;
+	background-image:url(../../images/icons/empty.png);
+	background-repeat:no-repeat;
+	background-position: 0px;
+	cursor: pointer;
+
+}
+.drag{
+	width:25px;
+	padding:5px;
+	background-image:url(../../images/icons/stack.png);
+	background-position: 5px;
+	cursor: pointer;
+
+}
+
+
+#tileList .list span{
+
+  	position:absolute;
+
+  }
+  .ui-state-highlight{
+
+  	height:50px;
+  	line-height:50px;
+
+  }
